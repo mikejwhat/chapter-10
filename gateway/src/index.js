@@ -106,6 +106,8 @@ async function main() {
     });
 }
 
+console.log(“Hello world”);
+
 main()
     .catch(err => {
         console.error("Microservice failed to start.");
